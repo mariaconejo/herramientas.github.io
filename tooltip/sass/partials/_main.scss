@@ -1,0 +1,42 @@
+@import'../config/mixins';
+@import'../config/settings';
+
+body {
+    @include body;
+  }
+  
+  .tooltip {
+      @include tooltip;
+  }
+    
+  .tooltip:hover .tooltipText {
+      display: inline-block; 
+  }
+    
+  .tooltipText {
+      display: none;
+      position: absolute;
+      background-color: $gray;
+      line-height: 20px;
+      z-index: 1;
+      text-align: center;
+      color: $black;
+      font-size: 15px;
+      padding: 5px 10px;
+      border-radius: 5px;
+      left: 600px;
+      right: 600px;
+      top: 500px; 
+  }
+    
+  .tooltipText::after {
+      content: "";
+      display: block;
+      border-bottom: 7px solid $gray;
+      border-left: 7px solid transparent;
+      border-right: 7px solid transparent;
+      position: absolute;
+      bottom: 28px;
+      left: 75px; 
+  }
+  
