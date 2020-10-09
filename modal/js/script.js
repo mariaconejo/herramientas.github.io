@@ -1,9 +1,9 @@
 function open(){
-    document.getElementById('vent').style.display='block';
-    document.getElementById('overlay').style.display='block';
+    document.getElementById('ventana').style.display='block';
+    document.getElementById('over').style.display='block';
 }
 
 function close(){
-    document.getElementById('vent').style.display='none';
-    document.getElementById('overlay').style.display='none';
+    document.getElementById('ventana').style.display='none';
+    document.getElementById('over').style.display='none';
 }
