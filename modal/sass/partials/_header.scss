@@ -91,7 +91,7 @@
     }
 
 }
-.window{
+.modal{
     background-color:$color_window;
     height:300px;
     width:600px;
@@ -121,7 +121,7 @@
     left:600px;
     bottom:315px;
 }
-#overlay{
+#over{
     position:fixed;
     display: none;
     width: 100%;

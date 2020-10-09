@@ -92,7 +92,7 @@ p {
     padding-top: 25px;
     text-transform: uppercase; }
 
-.window {
+.modal{
   background-color: orangered;
   height: 300px;
   width: 600px;
@@ -122,7 +122,7 @@ p {
   left: 600px;
   bottom: 315px; }
 
-#overlay {
+#over {
   position: fixed;
   display: none;
   width: 100%;
@@ -139,6 +139,14 @@ p {
 
 #miModal a:hover {
   background-color: #c9501a; }
+
+.hidden{
+  display: none;
+}
+
+.active{
+  display: block;
+}
 
 /* espacio entre el h1 y el boton */
 #color-btn h1 {
