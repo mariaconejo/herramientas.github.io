@@ -1,0 +1,27 @@
+@import'../config/settings';
+/* Main */
+
+#color-two{
+    background-color:$colortwo;
+}
+
+#main-title{
+    padding-top: 115px;
+
+
+    h1{
+    text-transform: uppercase;
+    }
+
+}
+
+/*cajas*/
+
+.box{
+    text-align: $aling;
+    float: left;
+    width: 275px;
+    padding-top: 80px;
+    padding-bottom: 130px;
+}
+

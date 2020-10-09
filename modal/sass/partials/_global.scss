@@ -1,0 +1,25 @@
+@import'../config/_mixins';
+
+body {
+    @include cuerpo;
+}
+
+h1{
+    @include title-1;
+}
+h2{
+    @include title-2;
+}
+
+p{
+    @include paragraph;
+}
+
+.wrapper{
+
+    @include tortilla;
+}
+
+.clearfix::after {
+   @include clearfix;
+  }

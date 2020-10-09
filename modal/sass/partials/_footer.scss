@@ -1,0 +1,40 @@
+@import'../config/_settings';
+/*Footer¨*/
+
+#color-three{
+    background-color:$colorthree;
+}
+
+/* Menu del footer */
+
+#footer-nav{
+
+    padding-top: 46px;
+    padding-bottom: 86px;
+
+}
+
+#footer-nav-list li{
+
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#footer-nav-list li + li{
+    margin-left: 55px;
+}
+
+#footer-nav-list a{
+
+    text-decoration: none;
+    color: $font-color;
+    font-size: 24px;
+}
+
+/* Hover del menu del footer */
+
+#footer-nav-list a:hover{
+    color: #30bae7;
+}
