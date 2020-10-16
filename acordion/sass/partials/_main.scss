@@ -1,0 +1,57 @@
+@import'../config/_settings';
+
+body{
+    font-family: $font;
+    font-size: 16px;
+    margin: 0 auto;
+    color: $blanco;
+    background-color: $body-color;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrapper{
+    width: 480px;
+    height: auto;
+    margin: 0 auto;
+}
+
+img{
+    width: $img-size;
+    height:$img-size;
+}
+
+.info{
+    padding: 0 18px;
+    background-color: $info-color;
+    display: none;
+    width: 400px;
+    text-align: center;
+    border: 4px solid $border;
+    border-radius: 10px;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.acordeon{
+    font-family: $font;
+    background-color: $acordion-color;
+    color: $blanco;
+    border: 4px solid $border;
+    font-weight: bold;
+    transition: 0.4s;
+    width: 445px;
+    text-align: center;
+    font-size: 18px;
+    float: left;
+    border-radius: 10px;
+    display: block;
+}
+
+.acordeon:hover{
+    background-color:$hover-color;
+}
