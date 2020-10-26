@@ -1,0 +1,13 @@
+
+/*Global*/
+body{
+    margin: 0;
+    font-family: $font;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table; 
+}

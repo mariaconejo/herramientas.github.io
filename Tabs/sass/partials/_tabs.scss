@@ -1,0 +1,54 @@
+/* TABS*/
+.tabs {
+    margin-left: 248px;
+    margin-top: 100px;
+}
+
+.tabs-list {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    text-transform: uppercase;
+}
+
+.tabs-list-item {
+    display: block;
+    padding: 10px 20px;
+    color:$color-font;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: $color;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid $border-tabs;
+}
+
+.tabs-content {
+    text-align: left;
+    margin-left: 288px;
+    margin-right: 288px;
+    border: 1px solid $border-tabs;
+    background-color: $color;
+    margin-bottom: 100px;
+
+
+    h2{
+        color: $color-font;
+        font-size: 41px;
+    }
+
+    p{
+        color: $color-font;
+        font-size: 15px;
+    }
+
+}
+
+.js-active {
+    background-color: $color-tabs;
+    border-bottom: 1px solid $border-tabs;
+    color: $color;
+}
+
+.js-content-hidden {
+    display: none;
+}

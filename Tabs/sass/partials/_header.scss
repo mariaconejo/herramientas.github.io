@@ -1,0 +1,26 @@
+/* HEADER*/
+
+@import'../config/mixin';
+
+.header{
+    
+    @include barras;
+    
+
+
+    p{
+        text-align: left;
+        font-size: 33px;
+        color: $color-font;
+        padding-top: 30px;
+        padding-left: 77px;
+    }
+
+}
+
+.header-logo{
+    position: absolute;
+    right: 170px;
+    top: 150px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,14 @@
+/*Footer*/
+@import'../config/mixin';
+
+
+.footer{
+    @include barras;
+    
+}
+
+.footer-img{
+    position: absolute;
+    right: 0;
+    top:-2px;
+}
