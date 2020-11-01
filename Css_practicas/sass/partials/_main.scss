@@ -1,0 +1,52 @@
+@import'../config/settings';
+
+/* Div del banner */
+.banner{
+    width: 80%;
+    top: 25%;
+    left: 130px;
+    position: absolute;
+    color: $color-btn;
+}
+
+/* Div del parrafo */
+.banner-paragraph{
+    width: 50%;
+    float: left;
+
+
+    h1{
+        font-size: 43px;
+        width: 640px;
+        position: relative;
+        margin-left: 40px;
+    }
+
+    p{
+        font-size: 15px;
+        width: 650px;
+        margin: 30px 0 30px 40px;
+        line-height: 25px;
+        color: $color-p;
+    }
+}
+/* Div de la imagen */
+.banner-img{
+    width: 50%;
+    float: right;
+
+
+    img{
+        width: 100%;
+        padding-left: 50px;
+        margin-top: -20px;
+    }
+}
+
+/* Div del learn more */
+small{
+    margin-left: 40px;
+    font-size: 12px;
+    color: $color-span;
+    letter-spacing: 3px;
+}

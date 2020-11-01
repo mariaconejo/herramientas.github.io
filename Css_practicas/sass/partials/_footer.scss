@@ -1,0 +1,30 @@
+@import'../config/settings';
+
+/* Div del Footer*/
+.footer{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+/* Div menu del footer */
+.nav-footer{
+    display: inline-flex;
+    margin: 30px auto;
+    text-align: center;
+    
+
+
+    li{
+        list-style: none;
+        margin: 0 70px;
+        cursor: pointer;  
+    }
+
+    a{
+        margin-top: 15px;
+        text-decoration: none;
+        font-size: 10px;
+        color: $color-btn;
+    }
+
+}
