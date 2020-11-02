@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Todos los metados-->
+        <meta name="description" content="Html buenas prácticas"/>
+        <meta name="Keywords" content="html, css, scss, web2020"/>
+        <meta name="author" content="María José"/>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+        <title>Formulario</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>Formulario</h1>
+            <div class="wrapper-info">
+                <div class="form">
+                    <form action="#" method="GET">
+                        <div class="form-text clearfix">
+                            <h5>ACCOUNT</h5>
+                            <div class="form-box">
+                                <div><img class="box-icon" src="img/img-1.png" alt="usuario"></div>
+                                <label for="usuario"></label>
+                                <input type="text" value="name" name="nombre" id="usuario" class="account">
+                            </div>
+                            <div class="form-box">
+                                <div><img class="box-icon" src="img/img-2.png" alt="sobre"></div>
+                                <label for="email"></label>
+                                <input type="text" value="email" name="correo" id="email" class="account">
+                            </div>
+                            <div class="form-box">
+                                <div><img class="box-icon" src="img/img-3.png" alt="llave"></div>
+                                <label for="password"></label>
+                                <input type="text" value="password" name="contraseña" id="password" class="account">
+                            </div>
+                        </div>
+                        <div class="form-date clearfix">
+                            <h5>Date of birth</h5>
+                            <label for="date"></label>
+                            <input type="date" name="fecha" id="date" class="account">
+                        </div>
+                        <div class="gender clearfix">
+                            <h5>Gender</h5>
+                            <div class="gender-radio">
+                                <input type="radio" value="male" id="male" name="genero">
+                                <label for="male">Male</label>
+                            </div>
+                            <div class="gender-radio">
+                                <input type="radio" value="male" id="female" name="genero">
+                                <label for="female">Female</label>
+                            </div>
+                        </div>
+                        <div class="pyment clearfix">
+                            <h5>Pyment details</h5>
+                            <button class="pyment-buttons"><img class="visa" src="img/visa.png" alt="visa">Credit card</button>
+                            <button class="pyment-buttons"><img class="paypal" src="img/paypal.png" alt="paypal">Paypal</button>
+                        </div>
+
+                        <div class="form-text clearfix">
+                            <div class="form-box">
+                                <div><img class="box-icon" src="img/img-4.png" alt="tarjeta"></div>
+                                <label for="card"></label>
+                                <input type="text" value="card" id="card" name="tarjeta" class="account">
+                            </div>
+
+                            <div class="form-box">
+                                <div><img class="box-icon" src="img/img-5.png" alt="candado"></div>
+                                <label for="candado"></label>
+                                <input type="text" value="card" id="candado" name="tarjeta" class="account">
+                            </div>
+
+                            <div class="date">
+                                <label for="dates"></label>
+                                <input type="date" id="dates" name="fecha" class="account">
+                            </div>
+                        </div>
+
+                        <div class="terminos clearfix">
+                            <h5>Terms & conditions</h5>
+                            <input type="checkbox" value="terms" id="terms" name="terminos">
+                            <label for="terms">Yes I accept the terms and conditions of signing up to this service and have read the privacy pilicy regarding the storing my information.</label>
+                        </div>
+                        <button class="enviar" type="submit" value="submit">Sign Up!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
