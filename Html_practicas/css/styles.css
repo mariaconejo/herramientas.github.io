@@ -31,7 +31,7 @@ body {
 
 /*GLOBALES*/
 h1 {
-  color:#473b38;
+  color:#fff;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 90px;
   position: absolute;
@@ -39,7 +39,7 @@ h1 {
   left: 360px; }
 
 h5 {
-  color:#7b8a4b;
+  color: black;
   margin-bottom: 15px;
   text-transform: uppercase; }
 
@@ -79,7 +79,7 @@ h5 {
   margin-top: 20px; }
 
 .gender-radio {
-  background-color: #778b35;
+  background-color: black;
   padding: 8px 15px 8px 12px;
   text-align: center;
   float: left;
@@ -96,7 +96,7 @@ h5 {
   margin-top: 20px; }
 
 .pyment-buttons {
-  background-color: #778b35;
+  background-color: black;
   border: none;
   color: white;
   font-size: 14px;
@@ -126,7 +126,7 @@ h5 {
   color: gray;}
 
 .enviar {
-  background-color: #778b35;
+  background-color: black;
   border: none;
   color: white;
   font-size: 14px;
